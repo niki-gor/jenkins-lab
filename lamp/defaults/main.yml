@@ -1,5 +1,0 @@
----
-mysql_created_users:
-  - { name: 'user1', password: 'password123', priv: '*.*:ALL' }
-  - { name: 'user2', password: 'password456', priv: '*.*:ALL' }
-mysql_login_user: root

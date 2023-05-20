@@ -1,0 +1,16 @@
+all:
+  hosts:
+    sre:
+      ansible_host: 192.168.2.52
+      ansible_user: admini
+      ansible_password: toortoor
+      ansible_become_password: toortoor
+  vars:
+    mysql_login_user: root
+    mysql_created_users:
+      - name: user1
+        password: password123
+        priv: "*.*:ALL"
+      - name: user2
+        password: password456
+        priv: "*.*:ALL"
