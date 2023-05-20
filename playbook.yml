@@ -1,0 +1,5 @@
+- name: Install LAMP stack
+  hosts: target
+  become: yes
+  roles:
+    - lamp
